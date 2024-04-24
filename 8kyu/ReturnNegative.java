@@ -12,6 +12,10 @@
 
 // My Solution
 public class ReturnNegative {
+    public static void main(String[] args) {
+        int userinput = Integer.parseInt(args[0]);
+        System.out.println(makeNegative(userinput));
+    }
     public static int makeNegative(final int x) {
         if (x < 0){
             return x;
@@ -24,3 +28,4 @@ public class ReturnNegative {
         return x;
     }
 }
+
